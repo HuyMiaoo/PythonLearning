@@ -14,13 +14,12 @@ elif size =="L":
 else:
     print("You Typed wrong input")
 
-#Add pepperoni or not ?
+
 if pepperoni == "Y":
     if size == "S":
         bill += 2
     else:
         bill += 3
-#Extra cheese?
 
 if extra_cheese == "Y":
     bill += 1
